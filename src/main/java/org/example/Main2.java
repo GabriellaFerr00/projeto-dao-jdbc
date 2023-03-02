@@ -16,10 +16,21 @@ public class Main2 {
 
         DepartmentDao departmentDao = DaoFactory.createDepartmentDao();
 
-        System.out.println("\n************ TEST 1: Departament insert ************");
+        System.out.println("************ TEST 1: Department findById ************\n");
+        Department department1 = departmentDao.findById(5);
+        System.out.print(department1);
+
+        System.out.println("\n************ TEST 2: Departament insert ************");
         Department department = new Department(5, "Finance");
         departmentDao.insert(department);
         System.out.println("Inserted - New id: " + department.getId());
+
+        System.out.println("\n************ TEST 3: Department update ************");
+        Department department2 = departmentDao.findById(5);
+        department2.setName("Administrative");
+        departmentDao.update(department2);
+        System.out.println("Update completed");
+
 
         sc.close();
     }
