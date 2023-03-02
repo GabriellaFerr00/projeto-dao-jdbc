@@ -31,6 +31,17 @@ public class Main2 {
         departmentDao.update(department2);
         System.out.println("Update completed");
 
+        System.out.println("\n************ TEST 4: Department findByAll ************");
+        List<Department> departmentsList = departmentDao.findAll();
+        for(Department obj : departmentsList){
+            System.out.println(obj);
+        }
+
+        System.out.println("\n************ TEST 5: Department delete ************");
+        System.out.print("Enter id for delete: ");
+        int id = sc.nextInt();
+        departmentDao.deleteById(id);
+        System.out.println("Delete completed");
 
         sc.close();
     }
