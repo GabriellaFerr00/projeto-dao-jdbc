@@ -1,4 +1,4 @@
-package db;
+package model.db;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -39,7 +39,7 @@ public class ConnectionDb{
 	}
 	//lendo o arquivo da propriedade que tem os dados do banco de dados para conectar
 	private static Properties loadProperties() {
-		try (FileInputStream fs = new FileInputStream("/resource/db.properties")) {
+		try (FileInputStream fs = new FileInputStream("db.properties")) {
 			Properties props = new Properties();
 			props.load(fs);
 			return props;

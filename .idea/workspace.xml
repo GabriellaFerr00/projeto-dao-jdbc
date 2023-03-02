@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ef43324-9281-4c3c-ad7f-a29f8381237f" name="Changes" comment="testando conexao com o github">
+    <list default="true" id="7ef43324-9281-4c3c-ad7f-a29f8381237f" name="Changes" comment="implementando o findById para consultar no banco de dados">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/model/dao/impl/SellerDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/model/dao/impl/SellerDaoJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -39,20 +41,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/java-libs/jdbc-connectors/mysql-connector-j-8.0.32.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/java-libs/jdbc-connectors/mysql-connector-j-8.0.32.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\dev\git\projeto-dao-jdbc\src" />
       <recent name="C:\dev\git\projeto-dao-jdbc" />
+      <recent name="C:\dev\git\projeto-dao-jdbc\src\main\java\model" />
+      <recent name="C:\dev\git\projeto-dao-jdbc\src" />
       <recent name="C:\dev\git\projeto-dao-jdbc\src\main\resources" />
     </key>
   </component>
@@ -94,7 +98,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677263645278</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="criando a interface DAO das entidades">
+      <created>1677714641710</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677714641710</updated>
+    </task>
+    <task id="LOCAL-00003" summary="implementando SellerDao e DaoFactory">
+      <created>1677717092035</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677717092035</updated>
+    </task>
+    <task id="LOCAL-00004" summary="implementando o findById para consultar no banco de dados">
+      <created>1677724839171</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677724839172</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +135,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="testando conexao com o github" />
-    <option name="LAST_COMMIT_MESSAGE" value="testando conexao com o github" />
+    <MESSAGE value="criando a interface DAO das entidades" />
+    <MESSAGE value="implementando SellerDao e DaoFactory" />
+    <MESSAGE value="implementando o findById para consultar no banco de dados" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementando o findById para consultar no banco de dados" />
   </component>
 </project>
