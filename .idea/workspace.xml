@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ef43324-9281-4c3c-ad7f-a29f8381237f" name="Changes" comment="implementando o findById para consultar no banco de dados">
+    <list default="true" id="7ef43324-9281-4c3c-ad7f-a29f8381237f" name="Changes" comment="implementando operacao update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/model/dao/impl/SellerDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/model/dao/impl/SellerDaoJDBC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
@@ -41,17 +41,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/java-libs/jdbc-connectors/mysql-connector-j-8.0.32.jar",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/java-libs/jdbc-connectors/mysql-connector-j-8.0.32.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\dev\git\projeto-dao-jdbc" />
@@ -119,7 +119,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677724839172</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="implementando operacao findByDepartment">
+      <created>1677731766581</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677731766581</updated>
+    </task>
+    <task id="LOCAL-00006" summary="implementando operacao findByAll">
+      <created>1677732250159</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677732250159</updated>
+    </task>
+    <task id="LOCAL-00007" summary="implementando operacao insert">
+      <created>1677734772077</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677734772078</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +159,10 @@
     <MESSAGE value="criando a interface DAO das entidades" />
     <MESSAGE value="implementando SellerDao e DaoFactory" />
     <MESSAGE value="implementando o findById para consultar no banco de dados" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementando o findById para consultar no banco de dados" />
+    <MESSAGE value="implementando operacao findByDepartment" />
+    <MESSAGE value="implementando operacao findByAll" />
+    <MESSAGE value="implementando operacao insert" />
+    <MESSAGE value="implementando operacao update" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementando operacao update" />
   </component>
 </project>
