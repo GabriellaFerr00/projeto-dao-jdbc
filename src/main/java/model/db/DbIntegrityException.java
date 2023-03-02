@@ -1,4 +1,4 @@
-package db;
+package model.db;
 
 public class DbIntegrityException extends RuntimeException {
 

@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ef43324-9281-4c3c-ad7f-a29f8381237f" name="Changes" comment="testando conexao com o github">
+    <list default="true" id="7ef43324-9281-4c3c-ad7f-a29f8381237f" name="Changes" comment="implementando SellerDao e DaoFactory">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/ConnectionDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/db/ConnectionDb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/DbException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/db/DbException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/DbIntegrityException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/db/DbIntegrityException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/DaoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/DepartamentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/DepartmentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/model/dao/impl/SellerDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/model/dao/impl/SellerDaoJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/entities/Departament.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/entities/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/entities/Seller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/entities/Seller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/db.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +57,14 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\dev\git\projeto-dao-jdbc\src" />
       <recent name="C:\dev\git\projeto-dao-jdbc" />
+      <recent name="C:\dev\git\projeto-dao-jdbc\src\main\java\model" />
+      <recent name="C:\dev\git\projeto-dao-jdbc\src" />
       <recent name="C:\dev\git\projeto-dao-jdbc\src\main\resources" />
     </key>
   </component>
@@ -102,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677714641710</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="implementando SellerDao e DaoFactory">
+      <created>1677717092035</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677717092035</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +137,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="testando conexao com o github" />
     <MESSAGE value="criando a interface DAO das entidades" />
-    <option name="LAST_COMMIT_MESSAGE" value="criando a interface DAO das entidades" />
+    <MESSAGE value="implementando SellerDao e DaoFactory" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementando SellerDao e DaoFactory" />
   </component>
 </project>
