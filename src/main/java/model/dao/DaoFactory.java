@@ -1,7 +1,9 @@
 package model.dao;
 
+import model.dao.model.dao.impl.DepartmentDaoJDBC;
 import model.dao.model.dao.impl.SellerDaoJDBC;
 import model.db.ConnectionDb;
+import model.entities.Department;
 
 //classe auxiliar responsavel por instanciar os DAOs
 public class DaoFactory {
@@ -11,5 +13,9 @@ public class DaoFactory {
     public static SellerDao createSellerDao(){
 
         return new SellerDaoJDBC(ConnectionDb.getConnection());
+    }
+    public static DepartmentDao createDepartmentDao(){
+
+        return new DepartmentDaoJDBC(ConnectionDb.getConnection());
     }
 }
